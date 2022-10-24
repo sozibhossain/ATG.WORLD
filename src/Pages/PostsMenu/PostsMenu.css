@@ -1,0 +1,50 @@
+.posts-menu-area{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 40px;
+    border-bottom:  1.5px solid #E0E0E0;
+}
+.posts-menu{
+    display: flex;
+}
+.posts-menu button{
+    border: none;
+    background-color: #fff;
+}
+
+.write-post{
+    border: none;
+    margin-right: 7px;
+}
+
+.join-group-btn{
+    border: none;
+    background-color: #2F6CE5;
+    border-radius: 3px;
+    color: #fff;
+    height: 30px;
+}
+
+
+@media(max-width: 1400px){
+    
+    .mobile-posts-menu-area{
+        display: none;
+    }
+}
+
+@media(max-width: 666px){
+    .posts-menu-area{
+        display: none;
+    }
+    .mobile-posts-area{
+        margin-top: 15px;
+    }
+    .mobile-posts-menu-area{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -10px;
+    }
+}

@@ -1,0 +1,60 @@
+.posts{
+    margin-top: 20px;
+    border: 1px solid #a9aeb854;
+    border-radius: 5px;
+}
+.posts-img{
+    width: 100%;
+}
+.posts-text-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.posts-text-menu button{
+    border: none;
+    background-color: #fff;
+}
+
+.posts-text-share{
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-job-icon{
+    margin-right: 30px;
+}
+
+.visit-btn{
+    width: 100%;
+    height: 38px;
+    color: #E56135;
+    margin: 10px 0 10px 0;
+    border: 0.7px dashed #A9AEB8;
+    border-radius: 5px;
+}
+.job-apply-btn{
+    width: 100%;
+    height: 38px;
+    color: #02B875;;
+    margin: 10px 0 10px 0;
+    border: 0.7px dashed #A9AEB8;
+    border-radius: 5px;
+}
+.posts-text-share img{
+    margin-right: 7px;
+}
+.posts-text-share button{
+    border: none;
+    background-color: #EDEEF0;
+    margin-left: 10px;
+}
+
+.edit-location{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.edit-location-help-text{
+    font-size: 10px;
+    line-height: 1.6px;
+}
